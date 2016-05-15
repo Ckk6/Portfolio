@@ -1,0 +1,128 @@
+.Wrapper{
+	position:relative;
+}
+
+/*header code*/
+.header{
+	width: 960px;
+	height: 30px;
+	margin: 0 auto;
+	background: #ffffff;
+	border-color: #cccccc;
+}body{
+	font:#777777;
+}
+
+h1{
+	font-size: 20px;
+}
+
+h2{
+	font-size: 18px;
+}
+.logo{
+	float:left;
+	width: 160px;
+	padding: 20px;
+	margin-left: 75px;
+	margin-right: 175px;
+	background: #4aaaa5;
+	height: 40px;
+}
+
+li{
+	text-decoration: none;
+	display:inline-block;
+	padding: 30px;
+}
+
+.navarea{
+	/*background:red;*/
+	float: right;
+	/*font-family:*/
+	/*width:735px;*/
+	min-height: 40px;
+}
+
+.clearfloat{
+	clear:both;
+
+}
+
+/* End of Header*/
+
+.entirecontentarea
+{
+	background-image: url("../images/sayagata.png");
+	width: 960px;
+	margin: 0 auto;
+	/*background:#ffffff;*/
+	
+	overflow: auto;
+
+}
+
+
+.clearfloat
+{
+	clear:both;
+}
+
+.mainsectioncontent
+{
+	width:500px;
+	float: left;
+	margin-left: 75px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 15px;
+	background: #ffffff;
+		
+}
+
+.mscheader{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contentarea{
+	
+}
+
+.pbox{
+	margin:25px;
+	float:left;
+	
+
+}
+
+.sidebar
+{
+	width:270px;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	background: #ffffff;
+	float:left;
+}
+.image{
+	float:left;
+	margin-left: 20px;
+
+}
+.sidebarheader{
+	padding:20;
+}
+.sidebarcontent{
+	
+}
+
+footer{
+	height : 75px;
+	width: 960px;
+	margin: 0 auto;
+	background-color: #666666;
+	border-top: 5px #4aaaa5;
+}

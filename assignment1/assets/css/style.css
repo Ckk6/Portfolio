@@ -1,0 +1,122 @@
+h1 h2 h6{
+	font-family: "Georgia","Times",Times New Roman,serif;
+}
+body{
+	font:#777777;
+	/*background-image: url(../images/sayagata.*/png);
+}
+.Wrapper{
+	position:relative;
+}
+/* wrapper contains index.html page */
+/*allows for positioning*/
+
+.header{
+	width: 960px;
+	height: 30px;
+	margin: 0 auto;
+	background: #ffffff;
+	border-color: #cccccc;
+}
+
+h1{
+	font-size: 20px;
+}
+
+.logo{
+	float:left;
+	width: 160px;
+	padding: 20px;
+	margin-left: 75px;
+	margin-right: 175px;
+	background: #4aaaa5;
+	min-height: 40px;
+}
+
+li{
+	text-decoration: none;
+	display:inline-block;
+	padding: 30;
+}
+
+.navarea
+{
+	/*background:red;*/
+	float: right;
+	/*font-family:*/
+	/*width:735px;*/
+	min-height: 40px;
+}
+	
+.entirecontentarea
+{
+	background-image: url("../images/sayagata.png");
+	width: 960px;
+	margin: 0 auto;
+	/*background-color:#adacao;*/
+	font:#777777;
+	overflow: auto;
+
+}
+
+
+.clearfloat
+{
+	clear:both;
+}
+
+/*inner box*/
+.mainsectioncontent
+{
+	width:500px;
+	float: left;
+	background: #ffffff;
+	margin-left: 75px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 15px;
+	/*border-color: #dddddd;*/
+	border-color: green;
+		
+}
+
+.mscheader{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: solid;
+}
+
+.contentarea{
+	background:blue;
+	
+}
+
+.image{
+	float:left;
+	margin: 20px;
+
+}
+
+
+.sidebar
+{
+	width:270px;
+	margin-top: 20px;
+	margin-left: 50px;
+	background:#ffffff;
+	float:left;
+}
+.sidebarheader
+{padding:20;}
+
+.sidebarheader{
+
+}
+
+footer{
+	height : 100px;
+	width:960px;
+	margin: 0 auto;
+	background-color: #666666;
+	border-top: 4px solid #4aaaa5;
+}
