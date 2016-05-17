@@ -1,4 +1,4 @@
-h1 h2 h6{
+ h1 h2 h6{
 	font-family: "Georgia","Times",Times New Roman,serif;
 }
 body{
@@ -19,8 +19,21 @@ body{
 	border-color: #cccccc;
 }
 
+.color{
+		color:white;
+			}
+
+.tcolor{
+	color:#4aaaa5;
+}
+
 h1{
-	font-size: 20px;
+
+	font-size: 24px;
+}
+
+h2{
+	font-size: 20px;	
 }
 
 .logo{
@@ -30,8 +43,8 @@ h1{
 	margin-left: 75px;
 	margin-right: 175px;
 	background: #4aaaa5;
-	min-height: 40px;
-}
+	height: 40px;
+	}
 
 li{
 	text-decoration: none;
@@ -46,6 +59,7 @@ li{
 	/*font-family:*/
 	/*width:735px;*/
 	min-height: 40px;
+
 }
 	
 .entirecontentarea
@@ -83,11 +97,13 @@ li{
 .mscheader{
 	padding-top: 20px;
 	padding-bottom: 20px;
+	border-color:grey;
 	border-bottom: solid;
+	
 }
 
 .contentarea{
-	background:blue;
+	/*background:blue;*/
 	
 }
 
@@ -120,3 +136,94 @@ footer{
 	background-color: #666666;
 	border-top: 4px solid #4aaaa5;
 }
+
+/*using media query to accommodate different screen sizes*/
+
+@media screen and (max-width:640px) {
+	
+	.header{
+		position: static;
+		height:50px;
+			}
+
+	.logo{
+		margin: 0 auto;
+		width: 640px;
+		height:40px;
+		padding:20px;
+
+	}
+	li{
+		padding-left:100;
+		padding-top:10;
+		color:#777777;
+	}
+	.h1-padding{
+		padding-left: 200px;
+	}
+
+	.color{
+		color:white;
+
+	}
+	.navarea{
+		float:none;
+		width: 640px;
+		height: 15px;
+		background:#ffffff;
+			}
+	
+	
+
+	.entirecontentarea{
+		background-image: url("../images/sayagata.png");
+		width: 640px;
+		margin-top:30;
+		/*overflow: auto;*/
+	}
+
+	.mainsectioncontent{
+		float:none;
+		background: #ffffff;
+		width:500px;
+		height: 520px;
+		margin-left: 50px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 15px;
+					
+	}
+
+	.image{
+		float:none;
+		text-justify:left;
+	}
+
+	span{
+		display: block;
+	}
+	
+	
+
+	
+
+	.sidebar{
+		float:none;
+		width:500px;
+		margin-top: 10px;
+		margin-left: 50px;
+		padding-left: 15px;
+		padding-right: 15px;
+
+	}
+
+	footer{
+	height : 80px;
+	width:640px;
+	margin: 0 auto;
+	/*background-color: #666666;*/
+	/*border-top: 4px solid #4aaaa5;*/
+		}
+}
+
+
