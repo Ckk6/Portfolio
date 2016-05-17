@@ -30,6 +30,7 @@ body{
 h1{
 
 	font-size: 24px;
+	font-weight: bold;
 }
 
 h2{
@@ -38,7 +39,7 @@ h2{
 
 .logo{
 	float:left;
-	width: 160px;
+	width: 220px;
 	padding: 20px;
 	margin-left: 75px;
 	margin-right: 175px;
@@ -50,6 +51,7 @@ li{
 	text-decoration: none;
 	display:inline-block;
 	padding: 30;
+	color:#777777;
 }
 
 .navarea
@@ -80,7 +82,7 @@ li{
 }
 
 /*inner box*/
-.mainsectioncontent
+.main-section-content
 {
 	width:500px;
 	float: left;
@@ -123,11 +125,11 @@ li{
 	float:left;
 }
 .sidebarheader
-{padding:20;}
-
-.sidebarheader{
-
+{
+	padding:20;
 }
+
+
 
 footer{
 	height : 100px;
@@ -139,10 +141,70 @@ footer{
 
 /*using media query to accommodate different screen sizes*/
 
+@media screen and (max-width:768px) {
+	.header{
+		width:768px;
+
+		}
+	.logo{
+		margin-right:75px;
+		margin-left:60px; 
+	}
+
+	.entirecontentarea
+	{
+		width:768px;
+	}
+
+	.main-section-content
+	{
+		width:675px;
+		height: 325px;
+		float: none;
+		background: #ffffff;
+		margin-left: 30px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		padding: 10px;
+		border-color: green;
+
+	}
+
+	span{
+		display: block;
+		margin-top: 5px;
+	}
+
+	.sidebar
+	{
+		float:none;
+		width:675px;  
+		height:125px;
+		margin-left: 30px;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+
+	.sidebarheader
+	{
+		padding:5;
+	}
+	
+	footer
+	{
+	height : 70px;
+	width:768px;
+	margin: 0 auto;
+	
+		}
+}		
+
+
 @media screen and (max-width:640px) {
 	
 	.header{
 		position: static;
+		width: 640px;
 		height:50px;
 			}
 
@@ -156,10 +218,10 @@ footer{
 	li{
 		padding-left:100;
 		padding-top:10;
-		color:#777777;
+		/*color:#777777;*/
 	}
 	.h1-padding{
-		padding-left: 200px;
+		padding-left: 180px;
 	}
 
 	.color{
@@ -182,11 +244,11 @@ footer{
 		/*overflow: auto;*/
 	}
 
-	.mainsectioncontent{
+	.main-section-content{
 		float:none;
 		background: #ffffff;
 		width:500px;
-		height: 520px;
+		height: 550px;
 		margin-left: 50px;
 		margin-top: 20px;
 		margin-bottom: 20px;
@@ -196,12 +258,10 @@ footer{
 
 	.image{
 		float:none;
-		text-justify:left;
+		/*text-justify:left;*/
 	}
 
-	span{
-		display: block;
-	}
+	
 	
 	
 
@@ -214,6 +274,7 @@ footer{
 		margin-left: 50px;
 		padding-left: 15px;
 		padding-right: 15px;
+		margin-bottom: 20px;
 
 	}
 
@@ -221,9 +282,7 @@ footer{
 	height : 80px;
 	width:640px;
 	margin: 0 auto;
-	/*background-color: #666666;*/
-	/*border-top: 4px solid #4aaaa5;*/
+	
 		}
 }
-
 
